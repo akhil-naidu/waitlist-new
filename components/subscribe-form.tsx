@@ -9,7 +9,7 @@ export default function SubscribeForm() {
   return (
     <>
       <div className='relative flex items-center justify-center gap-10 before:h-px before:w-full before:border-b before:[border-image:linear-gradient(to_right,transparent,theme(colors.amber.300/.8),transparent)1] dark:before:[border-image:linear-gradient(to_right,transparent,theme(colors.amber.300/.16),transparent)1] before:shadow-sm before:shadow-white/20 dark:before:shadow-none after:h-px after:w-full after:border-b after:[border-image:linear-gradient(to_right,transparent,theme(colors.amber.300/.8),transparent)1] dark:after:[border-image:linear-gradient(to_right,transparent,theme(colors.amber.300/.16),transparent)1] after:shadow-sm after:shadow-white/20 dark:after:shadow-none mb-11'>
-        <div className='w-full max-w-xl mx-auto shrink-0'>
+        <div className='w-full max-w-sm md:max-w-xl mx-auto shrink-0'>
           <form className='relative'>
             {/* Border with dots in corners */}
             <div
