@@ -18,7 +18,7 @@ export default function PostsSidebar({
       case 'Platform':
         return (
           <svg
-            className='shrink-0 fill-amber-500/80'
+            className='shrink-0 fill-orange-500/80'
             width={16}
             height={14}
             xmlns='http://www.w3.org/2000/svg'
@@ -29,7 +29,7 @@ export default function PostsSidebar({
       case 'Education':
         return (
           <svg
-            className='shrink-0 fill-amber-500/80'
+            className='shrink-0 fill-orange-500/80'
             width={16}
             height={16}
             xmlns='http://www.w3.org/2000/svg'
@@ -40,7 +40,7 @@ export default function PostsSidebar({
       case 'Markets':
         return (
           <svg
-            className='shrink-0 fill-amber-500/80'
+            className='shrink-0 fill-orange-500/80'
             width={16}
             height={15}
             xmlns='http://www.w3.org/2000/svg'
@@ -51,7 +51,7 @@ export default function PostsSidebar({
       case 'Community':
         return (
           <svg
-            className='shrink-0 fill-amber-500/80'
+            className='shrink-0 fill-orange-500/80'
             width={16}
             height={16}
             xmlns='http://www.w3.org/2000/svg'
@@ -62,7 +62,7 @@ export default function PostsSidebar({
       case 'Tools':
         return (
           <svg
-            className='shrink-0 fill-amber-500/80'
+            className='shrink-0 fill-orange-500/80'
             width={16}
             height={16}
             xmlns='http://www.w3.org/2000/svg'
@@ -88,7 +88,7 @@ export default function PostsSidebar({
                 className={`flex items-center font-medium text-sm text-gray-800 dark:text-gray-200 px-4 h-9 space-x-4 transition-colors rounded-lg ${
                   selectedCategory === category
                     ? 'bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 shadow shadow-black/5'
-                    : 'hover:bg-amber-50/50 dark:hover:bg-gray-700/20'
+                    : 'hover:bg-orange-50/50 dark:hover:bg-gray-700/20'
                 }`}
                 href='#0'
                 onClick={(e) => {

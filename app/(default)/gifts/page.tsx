@@ -74,14 +74,14 @@ export default function Gifts() {
                   >
                     {/* Border with dots in corners */}
                     <div
-                      className='absolute -inset-1.5 bg-amber-500/15 dark:bg-gray-800/50 rounded-lg -z-10 
+                      className='absolute -inset-1.5 bg-orange-500/15 dark:bg-gray-800/50 rounded-lg -z-10 
                         before:absolute before:inset-y-0 before:left-0 before:w-[7px] 
                         before:bg-[length:7px_7px] before:[background-position:top_center,bottom_center] 
-                        before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,theme(colors.amber.500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.amber.500/.56)_1px,transparent_1px)] 
+                        before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px)] 
                         dark:before:[background-image:radial-gradient(circle_at_center,theme(colors.gray.600)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.gray.600)_1px,transparent_1px)] 
                         after:absolute after:inset-y-0 after:right-0 after:w-[7px] 
                         after:bg-[length:7px_7px] after:[background-position:top_center,bottom_center] 
-                        after:bg-no-repeat after:[background-image:radial-gradient(circle_at_center,theme(colors.amber.500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.amber.500/.56)_1px,transparent_1px)] 
+                        after:bg-no-repeat after:[background-image:radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px)] 
                         dark:after:[background-image:radial-gradient(circle_at_center,theme(colors.gray.600)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.gray.600)_1px,transparent_1px)]'
                     />
                     <div className='text-4xl mb-4'>{gift.icon}</div>
@@ -89,7 +89,7 @@ export default function Gifts() {
                     <p className='text-gray-600 dark:text-gray-400 mb-4 flex-grow'>
                       {gift.description}
                     </p>
-                    <div className='text-sm text-amber-600 dark:text-amber-400 pt-4 border-t border-gray-200 dark:border-gray-700'>
+                    <div className='text-sm text-orange-600 dark:text-orange-400 pt-4 border-t border-gray-200 dark:border-gray-700'>
                       {gift.terms}
                     </div>
                   </div>
@@ -97,7 +97,7 @@ export default function Gifts() {
               </div>
 
               <div className='mt-16 text-center'>
-                <div className='inline-flex items-center p-4 bg-amber-50 dark:bg-gray-800 rounded-lg'>
+                <div className='inline-flex items-center p-4 bg-orange-50 dark:bg-gray-800 rounded-lg'>
                   <span className='text-2xl mr-3'>⚡</span>
                   <p className='text-sm text-gray-800 dark:text-gray-200'>
                     <span className='font-semibold'>Act fast:</span> These

@@ -89,7 +89,7 @@ export default function TradingFeatures() {
               key={section.category}
               className={`mb-16 ${
                 index !== features.length - 1
-                  ? 'border-b border-amber-300/20 pb-16'
+                  ? 'border-b border-orange-300/20 pb-16'
                   : ''
               }`}
             >
@@ -103,7 +103,7 @@ export default function TradingFeatures() {
                     className='flex flex-col p-6 bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 rounded-lg'
                   >
                     <div className='flex items-center mb-4'>
-                      <div className='w-8 h-8 flex items-center justify-center bg-amber-500/10 rounded-lg mr-3'>
+                      <div className='w-8 h-8 flex items-center justify-center bg-orange-500/10 rounded-lg mr-3'>
                         {feature.icon}
                       </div>
                       <h3 className='font-semibold text-xl'>{feature.title}</h3>

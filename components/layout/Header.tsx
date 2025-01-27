@@ -21,7 +21,7 @@ export default function Header() {
   }, [isOpen]);
 
   return (
-    <header className='absolute top-4 md:top-6 w-full z-30 pb-4 md:pb-6 border-b [border-image:linear-gradient(to_right,transparent,theme(colors.amber.300/.4),transparent)1] dark:[border-image:linear-gradient(to_right,transparent,theme(colors.amber.300/.16),transparent)1] shadow-[0_1px_0_0_theme(colors.white/.2)] dark:shadow-none'>
+    <header className='absolute top-4 md:top-6 w-full z-30 pb-4 md:pb-6 border-b [border-image:linear-gradient(to_right,transparent,theme(colors.orange.300/.4),transparent)1] dark:[border-image:linear-gradient(to_right,transparent,theme(colors.orange.300/.16),transparent)1] shadow-[0_1px_0_0_theme(colors.white/.2)] dark:shadow-none'>
       <div className='px-4 sm:px-6'>
         <Container>
           <BorderedContainer className='h-12 bg-gradient-to-b from-white/90 to-white/70 dark:from-gray-700/80 dark:to-gray-700/70 rounded-lg px-3 shadow'>
@@ -37,7 +37,7 @@ export default function Header() {
                   {NAV_LINKS.map(({ href, label }) => (
                     <li key={href}>
                       <Link
-                        className='text-gray-800 dark:text-gray-200 rounded-lg hover:bg-amber-100 dark:hover:bg-gray-800/30 py-1.5 px-3'
+                        className='text-gray-800 dark:text-gray-200 rounded-lg hover:bg-orange-100 dark:hover:bg-gray-800/30 py-1.5 px-3'
                         href={href}
                       >
                         {label}

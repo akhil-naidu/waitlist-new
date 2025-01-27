@@ -30,7 +30,7 @@ export default function CountdownTimer() {
       </div>
 
       <div className='text-center space-y-4'>
-        <p className='text-lg font-semibold text-amber-600 dark:text-amber-400 animate-pulse'>
+        <p className='text-lg font-semibold text-orange-600 dark:text-orange-400 animate-pulse'>
           Early Access Closing Soon
         </p>
         <p className='text-sm text-gray-600 dark:text-gray-400'>
