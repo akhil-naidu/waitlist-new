@@ -73,7 +73,7 @@ export default function Header() {
             className='fixed inset-0 z-50 bg-gray-600 bg-opacity-75'
             aria-hidden='true'
           ></div>
-          <nav className='fixed top-0 right-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white dark:bg-gray-800 border-l border-gray-200 dark:border-gray-700 overflow-y-auto z-50'>
+          <nav className='fixed top-0 right-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-orange-100 dark:bg-gray-800 border-l border-orange-200 dark:border-gray-700 overflow-y-auto z-50'>
             <div className='flex items-center justify-between mb-8'>
               <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>
                 Menu
@@ -92,7 +92,7 @@ export default function Header() {
                   <li key={href}>
                     <Link
                       href={href}
-                      className='text-base font-medium text-gray-900 dark:text-gray-200 hover:text-gray-700 dark:hover:text-white'
+                      className='text-base font-medium text-gray-700 dark:text-gray-200 hover:text-orange-400 dark:hover:text-white'
                       onClick={() => setIsOpen(false)}
                     >
                       {label}
