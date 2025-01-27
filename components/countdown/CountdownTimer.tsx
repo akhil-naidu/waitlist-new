@@ -5,7 +5,7 @@ import { calculateTimeLeft } from '@/utils/countdown';
 import TimeUnit from './TimeUnit';
 
 // Set a fixed launch date 25 days from a specific date to ensure server/client match
-const LAUNCH_DATE = new Date('2024-03-15T00:00:00Z').getTime();
+const LAUNCH_DATE = new Date('2025-02-01T00:00:00Z').getTime();
 
 export default function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(LAUNCH_DATE));
