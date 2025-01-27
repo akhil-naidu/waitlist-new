@@ -18,7 +18,7 @@ export default function PostsSidebar({
       case 'Platform':
         return (
           <svg
-            className='shrink-0 fill-orange-500/80'
+            className='shrink-0 fill-orange-600/80'
             width={16}
             height={14}
             xmlns='http://www.w3.org/2000/svg'
@@ -29,7 +29,7 @@ export default function PostsSidebar({
       case 'Education':
         return (
           <svg
-            className='shrink-0 fill-orange-500/80'
+            className='shrink-0 fill-orange-600/80'
             width={16}
             height={16}
             xmlns='http://www.w3.org/2000/svg'
@@ -40,7 +40,7 @@ export default function PostsSidebar({
       case 'Markets':
         return (
           <svg
-            className='shrink-0 fill-orange-500/80'
+            className='shrink-0 fill-orange-600/80'
             width={16}
             height={15}
             xmlns='http://www.w3.org/2000/svg'
@@ -51,7 +51,7 @@ export default function PostsSidebar({
       case 'Community':
         return (
           <svg
-            className='shrink-0 fill-orange-500/80'
+            className='shrink-0 fill-orange-600/80'
             width={16}
             height={16}
             xmlns='http://www.w3.org/2000/svg'
@@ -62,7 +62,7 @@ export default function PostsSidebar({
       case 'Tools':
         return (
           <svg
-            className='shrink-0 fill-orange-500/80'
+            className='shrink-0 fill-orange-600/80'
             width={16}
             height={16}
             xmlns='http://www.w3.org/2000/svg'

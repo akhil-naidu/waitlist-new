@@ -74,7 +74,7 @@ export default function Gifts() {
                   >
                     {/* Border with dots in corners */}
                     <div
-                      className='absolute -inset-1.5 bg-orange-500/15 dark:bg-gray-800/50 rounded-lg -z-10 
+                      className='absolute -inset-1.5 bg-orange-600/15 dark:bg-gray-800/50 rounded-lg -z-10 
                         before:absolute before:inset-y-0 before:left-0 before:w-[7px] 
                         before:bg-[length:7px_7px] before:[background-position:top_center,bottom_center] 
                         before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px)] 
@@ -89,7 +89,7 @@ export default function Gifts() {
                     <p className='text-gray-600 dark:text-gray-400 mb-4 flex-grow'>
                       {gift.description}
                     </p>
-                    <div className='text-sm text-orange-600 dark:text-orange-400 pt-4 border-t border-gray-200 dark:border-gray-700'>
+                    <div className='text-sm text-orange-700 dark:text-orange-500 pt-4 border-t border-gray-200 dark:border-gray-700'>
                       {gift.terms}
                     </div>
                   </div>

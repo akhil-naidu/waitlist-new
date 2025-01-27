@@ -59,7 +59,7 @@ export default function Home() {
 
           <div className='mb-8'>
             <p className='text-lg text-gray-600 dark:text-gray-400'>
-              <span className='font-semibold text-orange-600 dark:text-orange-400'>
+              <span className='font-semibold text-orange-700 dark:text-orange-500'>
                 Don't miss out:
               </span>{' '}
               Be part of the trading revolution. Lock in lifetime VIP spreads

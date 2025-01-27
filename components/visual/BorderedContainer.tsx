@@ -10,7 +10,7 @@ export default function BorderedContainer({
   return (
     <div className={`relative ${className}`}>
       <div
-        className='absolute -inset-3 bg-orange-500/15 dark:bg-transparent dark:bg-gradient-to-b 
+        className='absolute -inset-3 bg-orange-600/15 dark:bg-transparent dark:bg-gradient-to-b 
           dark:from-gray-700/80 dark:to-gray-700/70 rounded-lg -z-10 
           before:absolute before:inset-y-0 before:left-0 before:w-[15px] 
           before:bg-[length:15px_15px] before:[background-position:top_center,bottom_center] 

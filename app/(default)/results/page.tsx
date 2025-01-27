@@ -116,8 +116,8 @@ export default function Results() {
                         key={stat.label}
                         className='relative flex flex-col p-6 bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 rounded-lg text-center'
                       >
-                        <div className='absolute -inset-1.5 bg-orange-500/15 dark:bg-gray-800/50 rounded-lg -z-10' />
-                        <div className='text-4xl font-bold text-orange-600 dark:text-orange-400 mb-2'>
+                        <div className='absolute -inset-1.5 bg-orange-600/15 dark:bg-gray-800/50 rounded-lg -z-10' />
+                        <div className='text-4xl font-bold text-orange-700 dark:text-orange-500 mb-2'>
                           {stat.value}
                         </div>
                         <h3 className='text-lg font-semibold mb-2'>
@@ -146,7 +146,7 @@ export default function Results() {
                   >
                     {/* Border with dots in corners */}
                     <div
-                      className='absolute -inset-1.5 bg-orange-500/15 dark:bg-gray-800/50 rounded-lg -z-10 
+                      className='absolute -inset-1.5 bg-orange-600/15 dark:bg-gray-800/50 rounded-lg -z-10 
                         before:absolute before:inset-y-0 before:left-0 before:w-[7px] 
                         before:bg-[length:7px_7px] before:[background-position:top_center,bottom_center] 
                         before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,theme(colors.orange.500/.56)_1px,transparent_1px)] 
@@ -158,7 +158,7 @@ export default function Results() {
                     />
                     <div className='mb-4'>
                       <svg
-                        className='fill-orange-500/80 w-8 h-8'
+                        className='fill-orange-600/80 w-8 h-8'
                         viewBox='0 0 32 32'
                       >
                         <path d='M10 8c-3.3 0-6 2.7-6 6v10h6V14h-4c0-2.2 1.8-4 4-4V8zm12 0c-3.3 0-6 2.7-6 6v10h6V14h-4c0-2.2 1.8-4 4-4V8z' />
@@ -180,7 +180,7 @@ export default function Results() {
                       </cite>
                       <div className='mt-3 flex justify-between text-sm'>
                         <div>
-                          <div className='font-semibold text-orange-600 dark:text-orange-400'>
+                          <div className='font-semibold text-orange-700 dark:text-orange-500'>
                             {testimonial.stats.trades}
                           </div>
                           <div className='text-gray-600 dark:text-gray-400'>
@@ -188,7 +188,7 @@ export default function Results() {
                           </div>
                         </div>
                         <div>
-                          <div className='font-semibold text-orange-600 dark:text-orange-400'>
+                          <div className='font-semibold text-orange-700 dark:text-orange-500'>
                             {testimonial.stats.avgSpread}
                           </div>
                           <div className='text-gray-600 dark:text-gray-400'>
@@ -196,7 +196,7 @@ export default function Results() {
                           </div>
                         </div>
                         <div>
-                          <div className='font-semibold text-orange-600 dark:text-orange-400'>
+                          <div className='font-semibold text-orange-700 dark:text-orange-500'>
                             {testimonial.stats.execution}
                           </div>
                           <div className='text-gray-600 dark:text-gray-400'>

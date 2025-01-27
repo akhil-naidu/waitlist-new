@@ -6,7 +6,7 @@ export default function SocialLinks() {
       {SOCIAL_LINKS.map(({ href, label }) => (
         <a
           key={href}
-          className='font-medium text-orange-500 hover:underline'
+          className='font-medium text-orange-600 hover:underline'
           href={href}
           target='_blank'
           rel='noopener noreferrer'

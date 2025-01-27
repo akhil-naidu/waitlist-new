@@ -7,7 +7,7 @@ export default function Footer() {
             <p className='text-sm text-gray-700 dark:text-gray-400'>
               © Waitlist - A more meaningful home for software. Built by{' '}
               <a
-                className='font-medium text-orange-500 hover:underline'
+                className='font-medium text-orange-600 hover:underline'
                 href='https://twitter.com/pacovitiello'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -16,7 +16,7 @@ export default function Footer() {
               </a>{' '}
               &amp;{' '}
               <a
-                className='font-medium text-orange-500 hover:underline'
+                className='font-medium text-orange-600 hover:underline'
                 href='https://twitter.com/DavidePacilio'
                 target='_blank'
                 rel='noopener noreferrer'

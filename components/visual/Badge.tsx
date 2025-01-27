@@ -13,7 +13,7 @@ export default function Badge({ children, className = '' }: BadgeProps) {
       dark:before:[background-image:linear-gradient(120deg,theme(colors.orange.400/.16),theme(colors.orange.600/.16)_50%,transparent_100%)] 
       shadow ${className}`}
     >
-      <span className='relative text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-orange-500 dark:to-orange-50'>
+      <span className='relative text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-b dark:from-orange-600 dark:to-orange-50'>
         {children}
       </span>
     </div>
